@@ -1,4 +1,4 @@
 export interface Coordonnees {
-  latitude: number;
-  longitude: number;
+  identifiant?: number;
+  geolocalisation: string;
 }
